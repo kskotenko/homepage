@@ -235,14 +235,16 @@ article {
 	article {
 		max-width: 100%;
 		margin: 0 auto;
-  }
+	}
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	article {
 		max-width: 95%;
 		margin: 0 auto;
 	}
 }
+
 @media only screen and (min-width: 1200px) {
 	article {
 		max-width: 90%;
@@ -275,11 +277,13 @@ article {
 	pointer-events: none;
 	transition: border-color 0.2s ease-in-out;
 }
+
 @media only screen {
 	.page:hover {
 		box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.3);
 	}
 }
+
 @media only screen and (max-width: 767px) {
 	.page,
 	.page[style^='border-color'] {
@@ -470,6 +474,7 @@ article {
 }
 
 /* Stackable */
+
 @media only screen and (max-width: 767px) {
 	.stackable.grid > .row > .wide.column,
 	.stackable.grid > .wide.column,
@@ -490,6 +495,7 @@ article {
 .grid > .row > [class*='mobile only'].column {
 	display: none;
 }
+
 @media only screen and (max-width: 767px) {
 	[class*='mobile only'].grid,
 	.grid > [class*='mobile only'].row,
@@ -512,6 +518,7 @@ article {
 	display: block;
 	flex: 1 0 auto;
 }
+
 @media only screen and (max-width: 1199px) {
 	.avatar-wrapper {
 		padding: 0;
@@ -625,6 +632,7 @@ article {
 		margin-right: 0;
 	}
 }
+
 @media only screen and (max-width: 1199px) {
 	.contacts {
 		margin-top: 1em;
@@ -786,6 +794,7 @@ li.bordered > ul > details > div {
 }
 
 /* Print */
+
 @media print {
 	.page,
 	.page[style] {
@@ -967,6 +976,7 @@ dialog:target ~ * {
 .credits:hover {
 	opacity: 1;
 }
+
 @media only screen and (max-width: 767px) {
 	.credits {
 		display: none;
@@ -1007,6 +1017,7 @@ footer {
 	justify-content: center;
 	z-index: 1;
 }
+
 @media only screen and (max-width: 767px) {
 	header {
 		height: auto;
@@ -1024,6 +1035,7 @@ footer {
 		padding: 1em;
 	}
 }
+
 @media print {
 	header,
 	footer {
